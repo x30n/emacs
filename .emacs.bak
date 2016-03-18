@@ -3,9 +3,6 @@
 ;; path to where plugins are kept
 (setq plugin-path "~/.emacs.d/el-get/")
 
-;supress ad warnings
-(setq ad-redefinition-action 'accept)
-
 ;; define various custom functions
 (require 'custom-functions)
 
@@ -57,7 +54,7 @@
 (ido-mode 1)
 
 ;; MuMaMo
-;; (require 'mumamo-settings)
+(require 'mumamo-settings)
 
 ;; Markdown mode
 (require 'markdown-settings)
@@ -76,9 +73,6 @@
 
 ;; Javascript
 (require 'js-settings)
-
-;; Golang
-(require 'go-settings)
 
 ;; YAML mode
 (require 'yaml-settings)

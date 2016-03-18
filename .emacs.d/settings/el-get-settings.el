@@ -21,7 +21,6 @@
                magit
                markdown-mode
                matlab-mode
-               nxhtml
                pydoc-info
                scss-mode
                popup
@@ -29,9 +28,16 @@
                nyan-mode
                helm
                helm-descbinds
+               helm-projectile
                js2-mode
                yasnippet
                yaml-mode
+               go-mode
+               go-autocomplete
+               dirtree
+               powerline
+               monokai-theme
+               projectile
                ))   
 
 ; first enable shallow clone, so we don't need to clone the entire
@@ -42,4 +48,18 @@
 (el-get 'sync my-packages)
 
 (provide 'el-get-settings)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
